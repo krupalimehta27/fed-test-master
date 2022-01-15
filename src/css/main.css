@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+#q4Wrapper {
+  background-color: #2A3035;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+#q4Wrapper h1, #q4Wrapper h3 {
+  margin: 0;
+}
+#q4Wrapper h1 {
+  font-size: 48px;
+}
+#q4Wrapper h3 {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+#q4Wrapper header, #q4Wrapper footer {
+  background-color: #22272B;
+}
+#q4Wrapper header {
+  padding: 20px;
+}
+#q4Wrapper footer {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#q4Wrapper article {
+  text-align: center;
+}
+#q4Wrapper article img {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+#q4Wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+#q4Wrapper a:hover {
+  transform: scale(1.05);
+}
+#q4Wrapper a span {
+  opacity: 0.5;
+}
+
+body{
+  background-color: rgb(43, 48, 52);
+}
+
+
+.layout_inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+.layout_header {
+  margin-bottom: 30px;
+  text-align: center;
+  color:white;
+  background-color: rgb(35,39,42);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1px;
+}
+
+
+/* Begin styling the report items here! */
+.reports {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.reports_item {
+  width: 33%;
+  padding: 0px 3px;
+  font-size:10px;
+}
+
+.reports_cover
+{
+  box-shadow: 1px 7px 10px rgb(35,39,42);
+  margin:10px 30px;
+}
+
+.reports_title
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color:gray;
+  font-weight: bold;
+}
+
+.reports_docs
+{
+  background-color: rgb(35,39,42);
+  text-align: center;
+  line-height: 5px;
+  padding:5px;
+  border-radius: 5px;
+  margin:10px 13px;
+}
+
+.reports_title a
+{
+  color:white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.reports_title a:link
+{
+  text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+  .reports {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .reports_item{  
+    width: 50%;
+    padding: 0 2px;
+    
+  }
+  .reports_docs
+  {
+    background-color: rgb(35,39,42);
+    text-align: center;
+    line-height:5px;
+    padding:10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+  }
+}
